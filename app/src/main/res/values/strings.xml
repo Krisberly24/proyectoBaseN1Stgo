@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">proyectoBaseN1Stgo</string>
+    <string name="bievenido_a_biofit">Bievenido a Biofit</string>
+    <string name="biofit_es_la_herramienta_definitiva_del_fitness_y_del_autocuidado_es_un_software_digital_y_una_suite_completa_de_la_mejora_del_individuo_tambien_nos_permite_establecer_la_mejor_gestion_y_control_sobre_el_centro_fitness">Biofit es la herramienta definitiva del fitness y del autocuidado, es un software digital y una suite completa de la mejora del individuo , tambien nos permite establecer la mejor gestion y control sobre el centro fitness</string>
+    <string name="prueba">Prueba</string>
+    <string name="todo">TODO</string>
+    <string name="mi_perfil">MI PERFIL</string>
+    <string name="mis_clases">MIS CLASES</string>
+    <string name="mis_objetivos">MIS OBJETIVOS</string>
+    <string name="mis_dietas">MIS DIETAS</string>
+    <string name="lorem_ipsum_is_simply_dummy_text_of_the_printing_and_typesetting_industry_lorem_ipsum_has_been_the_industry_s_standard_dummy_text_ever_since_the_1500s_when_an_unknown_printer_took_a_galley_of_type_and_scrambled_it_to_make_a_type_specimen_book">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
