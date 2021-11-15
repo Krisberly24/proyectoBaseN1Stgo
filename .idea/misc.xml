@@ -5,12 +5,13 @@
       <map>
         <entry key="..\:/Kris/Universidad/4semestre/Android/Actividades/ProyectosBases/proyectoBaseN1/app/src/main/res/drawable/gradient_background.xml" value="0.2203125" />
         <entry key="..\:/Kris/Universidad/4semestre/Android/Actividades/ProyectosBases/proyectoBaseN1/app/src/main/res/layout/activity_casa.xml" value="0.22" />
-        <entry key="..\:/Kris/Universidad/4semestre/Android/Actividades/ProyectosBases/proyectoBaseN1/app/src/main/res/layout/activity_clases.xml" value="0.33" />
+        <entry key="..\:/Kris/Universidad/4semestre/Android/Actividades/ProyectosBases/proyectoBaseN1/app/src/main/res/layout/activity_clases.xml" value="0.2" />
         <entry key="..\:/Kris/Universidad/4semestre/Android/Actividades/ProyectosBases/proyectoBaseN1/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/Kris/Universidad/4semestre/Android/Actividades/ProyectosBases/proyectoBaseN1/app/src/main/res/layout/activity_home_uact.xml" value="0.2" />
         <entry key="..\:/Kris/Universidad/4semestre/Android/Actividades/ProyectosBases/proyectoBaseN1/app/src/main/res/layout/activity_info.xml" value="0.20416666666666666" />
         <entry key="..\:/Kris/Universidad/4semestre/Android/Actividades/ProyectosBases/proyectoBaseN1/app/src/main/res/layout/activity_insumos.xml" value="0.22" />
         <entry key="..\:/Kris/Universidad/4semestre/Android/Actividades/ProyectosBases/proyectoBaseN1/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Kris/Universidad/4semestre/Android/Actividades/ProyectosBases/proyectoBaseN1/app/src/main/res/layout/activity_maps.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

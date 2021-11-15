@@ -78,7 +78,7 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName5"
+                    android:id="@+id/code"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:ems="10"
@@ -86,7 +86,7 @@
                     android:inputType="textPersonName" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName8"
+                    android:id="@+id/clas"
                     android:layout_width="match_parent"
                     android:layout_height="65dp"
                     android:ems="10"
@@ -94,11 +94,11 @@
                     android:inputType="textPersonName" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName6"
+                    android:id="@+id/inten"
                     android:layout_width="match_parent"
                     android:layout_height="63dp"
                     android:ems="10"
-                    android:hint="Ingrese Intensidad"
+                    android:hint="Intensidad"
                     android:inputType="textPersonName" />
 
             </LinearLayout>
@@ -116,6 +116,7 @@
                     android:id="@+id/button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="guardarclases"
                     android:text="AÑADIR CLASES"
                     android:textColor="#F9F9FB"
                     app:cornerRadius="25dp" />
@@ -124,6 +125,7 @@
                     android:id="@+id/button3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="mostrarClases"
                     android:text="MOSTRAR CLASES"
                     android:textColor="#F9F9FB"
                     app:cornerRadius="25dp" />
@@ -132,6 +134,7 @@
                     android:id="@+id/button8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="eliminarClases"
                     android:text="ELIMINAR CLASES"
                     android:textColor="#F9F9FB"
                     app:cornerRadius="25dp" />
@@ -140,6 +143,7 @@
                     android:id="@+id/button11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="actualizarClases"
                     android:text="ACTUALIZAR CLASES"
                     android:textColor="#F9F9FB"
                     app:cornerRadius="25dp" />

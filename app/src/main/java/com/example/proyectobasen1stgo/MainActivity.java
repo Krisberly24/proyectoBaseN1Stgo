@@ -54,6 +54,36 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void face(View view)
+    {
+        Intent i = new Intent(Intent.ACTION_VIEW); //Abre un sitio web
+        i.setData(Uri.parse("https://www.facebook.com/"));
+        startActivity(i);
+
+    }
+
+    public void twiter(View view)
+    {
+        Intent i = new Intent(Intent.ACTION_VIEW); //Abre un sitio web
+        i.setData(Uri.parse("https://www.twitter.com/"));
+        startActivity(i);
+
+    }
+
+    public void youtube(View view)
+    {
+        Intent i = new Intent(Intent.ACTION_VIEW); //Abre un sitio web
+        i.setData(Uri.parse("https://www.youtube.com/"));
+        startActivity(i);
+
+    }
+
+    public void info(View view)
+    {
+        Intent i = new Intent(getBaseContext(), Info_act.class);
+        startActivity(i);
+    }
+
     //Tarea asincrona para correr procesos de segundo plano
     class Task extends AsyncTask<String, Void, String> {
         //Configuración inicial de mi tarea
@@ -165,7 +195,9 @@ public class MainActivity extends AppCompatActivity {
     }*/
 
         //Intenta implicitos
-        public void face(View view)
+
+
+       /* public void face(View view)
         {
             Intent i = new Intent(Intent.ACTION_VIEW); //Abre un sitio web
             i.setData(Uri.parse("https://www.facebook.com/"));
@@ -190,7 +222,9 @@ public class MainActivity extends AppCompatActivity {
         {
             Intent i = new Intent(getBaseContext(), Info_act.class);
             startActivity(i);
-        }
+        }*/
+
+
 
     }
 }

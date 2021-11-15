@@ -27,14 +27,14 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="354dp"
-        android:layout_height="435dp"
+        android:layout_width="340dp"
+        android:layout_height="366dp"
         android:layout_marginTop="28dp"
         app:cardCornerRadius="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView6" >
+        app:layout_constraintTop_toBottomOf="@+id/cardView6">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -67,8 +67,8 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
             <LinearLayout
-                android:layout_width="315dp"
-                android:layout_height="79dp"
+                android:layout_width="246dp"
+                android:layout_height="62dp"
                 android:layout_marginTop="28dp"
                 android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -81,10 +81,10 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
+                    android:contentDescription="TODO"
                     android:onClick="marcar"
                     app:srcCompat="@drawable/call"
-                    tools:ignore="SpeakableTextPresentCheck"
-                    android:contentDescription="TODO" />
+                    tools:ignore="SpeakableTextPresentCheck" />
 
                 <ImageButton
                     android:id="@+id/imageButton14"
