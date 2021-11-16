@@ -13,10 +13,15 @@
         <entry key="..\:/Kris/Universidad/4semestre/Android/Actividades/ProyectosBases/proyectoBaseN1/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Kris/Universidad/4semestre/Android/Actividades/ProyectosBases/proyectoBaseN1/app/src/main/res/layout/activity_maps.xml" value="0.20416666666666666" />
         <entry key="..\:/Whitney/android/proyectos/proyectoBaseN1Stgo/app/src/main/res/drawable/gradient_background.xml" value="0.14635416666666667" />
+        <entry key="..\:/Whitney/android/proyectos/proyectoBaseN1Stgo/app/src/main/res/layout/activity_casa.xml" value="0.264" />
+        <entry key="..\:/Whitney/android/proyectos/proyectoBaseN1Stgo/app/src/main/res/layout/activity_clases.xml" value="0.264" />
+        <entry key="..\:/Whitney/android/proyectos/proyectoBaseN1Stgo/app/src/main/res/layout/activity_info.xml" value="0.264" />
+        <entry key="..\:/Whitney/android/proyectos/proyectoBaseN1Stgo/app/src/main/res/layout/activity_insumos.xml" value="0.264" />
+        <entry key="..\:/Whitney/android/proyectos/proyectoBaseN1Stgo/app/src/main/res/layout/activity_main.xml" value="0.264" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

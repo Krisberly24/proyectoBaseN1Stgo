@@ -32,7 +32,7 @@ public class Clases_act extends AppCompatActivity {
     public  void guardarclases(View view)
     {
         //Obtenemos mi database
-        AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "biofit", null,1);
+        AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "HealthySoul", null,1);
         SQLiteDatabase db= admin.getWritableDatabase(); //Permite sobreescribir la base de datos el getW..
 
         String codigo = code.getText().toString();
@@ -50,7 +50,7 @@ public class Clases_act extends AppCompatActivity {
             db.insert("clases",null,cont); //Guardo en la base de datos
             db.close();
             Clean();
-            Toast.makeText(getBaseContext(),"Has guardado una clase",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getBaseContext(),"Has guardado la clase de alimentación",Toast.LENGTH_SHORT).show();
 
         }
         else
@@ -65,7 +65,7 @@ public class Clases_act extends AppCompatActivity {
     public  void  mostrarClases(View view)
     {
         //Obtenemos mi database
-        AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "biofit", null,1);
+        AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "HealthySoul", null,1);
         SQLiteDatabase db= admin.getWritableDatabase(); //Le entrega permisos de sobreescritura
 
         String codigo = code.getText().toString();
@@ -81,7 +81,7 @@ public class Clases_act extends AppCompatActivity {
             }
             else
             {
-                Toast.makeText(getBaseContext(), "No hay clase asociada", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getBaseContext(), "No hay clase de alimentación asociada", Toast.LENGTH_SHORT).show();
             }
         }
         else
@@ -96,7 +96,7 @@ public class Clases_act extends AppCompatActivity {
     public  void eliminarClases(View view)
     {
         //Obtenemos mi database
-        AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "biofit", null,1);
+        AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "HealthySoul", null,1);
         SQLiteDatabase db= admin.getWritableDatabase();
 
         String codigo = code.getText().toString();
@@ -105,7 +105,7 @@ public class Clases_act extends AppCompatActivity {
             db.delete("clases","codigo="+codigo, null);
             db.close();
             Clean();
-            Toast.makeText(getBaseContext(),"Se ha elimanado la clase "+codigo, Toast.LENGTH_SHORT).show();
+            Toast.makeText(getBaseContext(),"Se ha elimanado la clase de alimentación "+codigo, Toast.LENGTH_SHORT).show();
         }
         else
         {
@@ -117,7 +117,7 @@ public class Clases_act extends AppCompatActivity {
     public  void  actualizarClases(View view)
     {
         //Obtenemos mi database
-        AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "biofit", null,1);
+        AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "HealthySoul", null,1);
         SQLiteDatabase db= admin.getWritableDatabase();
 
         String codigo = code.getText().toString();

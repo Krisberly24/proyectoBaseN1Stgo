@@ -25,7 +25,7 @@ public class insumos_act extends AppCompatActivity {
         insumos= findViewById(R.id.insumos);
         result = findViewById(R.id.result);
         calificar = findViewById(R.id.rb);
-
+        result.setVisibility(View.INVISIBLE);
         //Recibo los extras
         Bundle bun = getIntent().getExtras();// recibo el intent
         String[] listado = bun.getStringArray("insumos"); // obtengo mi referencia array
@@ -49,8 +49,8 @@ public class insumos_act extends AppCompatActivity {
                 }
 
             }
-
-            result.setText("La opcion es: " + opcion + " El precio es: " + resultado);
+            result.setVisibility(View.VISIBLE);
+            result.setText("La opcion es: " + opcion + " El precio es: $ " + resultado);
         }
 
 

@@ -19,11 +19,10 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/logotipo"
-            android:contentDescription="TODO" />
+            app:srcCompat="@drawable/logo4" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -45,7 +44,7 @@
                 android:layout_width="321dp"
                 android:layout_height="151dp"
                 android:layout_marginTop="32dp"
-                android:text="@string/lorem_ipsum_is_simply_dummy_text_of_the_printing_and_typesetting_industry_lorem_ipsum_has_been_the_industry_s_standard_dummy_text_ever_since_the_1500s_when_an_unknown_printer_took_a_galley_of_type_and_scrambled_it_to_make_a_type_specimen_book"
+                android:text="Somos un grupo de especialistas enfocados en ayudarte a lograr una alimentación saludable sin restricciones, nos enfocamos que cada plan sea enfocado a us metas y con una alimentación que logre mantenerse en el tiempo."
                 android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -58,7 +57,7 @@
                 android:layout_width="157dp"
                 android:layout_height="34dp"
                 android:layout_marginTop="28dp"
-                android:text="@string/contact_us"
+                android:text="Contactanos:"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"

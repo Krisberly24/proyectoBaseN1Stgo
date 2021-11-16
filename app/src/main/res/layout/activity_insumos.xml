@@ -8,8 +8,8 @@
     tools:context=".insumos_act">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="354dp"
-        android:layout_height="672dp"
+        android:layout_width="371dp"
+        android:layout_height="609dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -17,15 +17,17 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="358dp"
-            android:layout_height="match_parent">
+            android:layout_height="569dp">
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="261dp"
                 android:layout_height="33dp"
                 android:layout_marginTop="16dp"
-                android:text="Bienvenido a Biofit"
-                android:textColor="#458C48"
+                android:text="Bienvenido a HealthySoul"
+                android:textColor="#b00122"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.381"
                 app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +38,7 @@
                 android:layout_width="299dp"
                 android:layout_height="85dp"
                 android:layout_marginTop="28dp"
-                android:text="Biofit es una herramientas que nos permite gestionar  todala seccion de insumo disponible para esta aplicación"
+                android:text="HealthySoul es una aplicación que nos permite poder tener una alimentación saludable a través de planes de alimentación que se encuentra a tu alcance, con un estandar que se adecua a tus necesidades y que te permite mantener una alimentación saludable en el tiempo "
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.493"
                 app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +48,7 @@
                 android:id="@+id/insumos"
                 android:layout_width="311dp"
                 android:layout_height="72dp"
-                android:layout_marginTop="64dp"
+                android:layout_marginTop="36dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.51"
                 app:layout_constraintStart_toStartOf="parent"
@@ -57,10 +59,10 @@
                 android:id="@+id/result"
                 android:layout_width="292dp"
                 android:layout_height="58dp"
-                android:layout_marginTop="64dp"
+                android:layout_marginTop="36dp"
                 android:text="TextView"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.26"
+                app:layout_constraintHorizontal_bias="0.363"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/insumos" />
 
@@ -68,25 +70,26 @@
                 android:id="@+id/rb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="52dp"
+                android:layout_marginTop="24dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.406"
+                app:layout_constraintHorizontal_bias="0.389"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/result"
                 tools:ignore="SpeakableTextPresentCheck" />
 
             <Button
                 android:id="@+id/button9"
-                android:layout_width="151dp"
-                android:layout_height="45dp"
+                android:layout_width="214dp"
+                android:layout_height="58dp"
+                android:backgroundTint="#b00122"
                 android:onClick="calcular"
                 android:text="Calcular"
+                app:cornerRadius="25dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.502"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/rb"
-                app:layout_constraintVertical_bias="0.387"
+                app:layout_constraintVertical_bias="0.159"
                 tools:ignore="TouchTargetSizeCheck" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

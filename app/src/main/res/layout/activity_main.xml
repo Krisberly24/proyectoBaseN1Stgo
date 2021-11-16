@@ -8,27 +8,27 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="349dp"
-        android:layout_height="169dp"
+        android:id="@+id/imageView5"
+        android:layout_width="408dp"
+        android:layout_height="166dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logotipo" />
+        app:srcCompat="@drawable/logo4" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
-        android:layout_width="337dp"
-        android:layout_height="428dp"
+        android:layout_width="335dp"
+        android:layout_height="444dp"
         app:cardCornerRadius="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView">
+        app:layout_constraintTop_toBottomOf="@+id/imageView5">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="425dp">
 
             <LinearLayout
                 android:id="@+id/linearLayout"
@@ -72,16 +72,18 @@
                     android:id="@+id/btn"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
-                    android:backgroundTint="#3f51b5"
+                    android:backgroundTint="#b00122"
                     android:text="Iniciar sesion"
+                    android:textColor="#FFFFFF"
                     app:cornerRadius="25dp" />
 
                 <Button
                     android:id="@+id/button4"
                     android:layout_width="match_parent"
                     android:layout_height="59dp"
-                    android:backgroundTint="#3f51b5"
-                    android:text="Salir de Biofit"
+                    android:backgroundTint="#b00122"
+                    android:text="Salir de healthySoul"
+                    android:textColor="#FFFFFF"
                     app:cornerRadius="25dp" />
 
             </LinearLayout>
@@ -180,7 +182,7 @@
             android:id="@+id/textView2"
             android:layout_width="351dp"
             android:layout_height="24dp"
-            android:text="Copyright Biofit chile 2022 Todos los derechos reservados"
+            android:text="Copyright HealthySoul chile 2022 Todos los derechos reservados"
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textSize="12sp"

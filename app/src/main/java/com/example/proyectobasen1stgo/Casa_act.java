@@ -25,7 +25,7 @@ public class Casa_act extends AppCompatActivity {
         video = findViewById(R.id.vwgym); //Llamo al video
 
         //Obtener la ruta del video
-        String ruta = "android.resource://" + getPackageName() + "/" +R.raw.video;
+        String ruta = "android.resource://" + getPackageName() + "/" +R.raw.nutricion;
         //Consultar al content provide
         //Lo hacemos atraves de uri
         Uri uri = Uri.parse(ruta);
