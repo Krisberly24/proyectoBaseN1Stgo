@@ -199,6 +199,7 @@
                         android:layout_width="149dp"
                         android:layout_height="match_parent"
                         android:backgroundTint="#b00122"
+                        android:onClick="calculoCalorias"
                         android:text="Metabolismo basal"
                         android:textColor="#F6F3F3"
                         app:cornerRadius="25dp" />

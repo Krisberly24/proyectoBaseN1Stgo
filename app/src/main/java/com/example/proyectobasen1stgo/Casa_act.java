@@ -59,6 +59,13 @@ public class Casa_act extends AppCompatActivity {
         startActivity(i);
     }
 
+    //Método para irme a clases
+    public void calculoCalorias(View view)
+    {
+        Intent i = new Intent(this, Metabolismobasal_act.class);
+        startActivity(i);
+    }
+
 
     //Tarea Pesada los dispositivos no lo soportan
     /*public  void Task(View view)

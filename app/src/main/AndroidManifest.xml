@@ -16,6 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoBaseN1Stgo">
         <activity
+            android:name=".Metabolismobasal_act"
+            android:exported="true" />
+        <activity
             android:name=".Clases_act"
             android:exported="true" />
         <!--
