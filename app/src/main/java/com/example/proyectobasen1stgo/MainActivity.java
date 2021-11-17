@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import objetos.Administrador;
 import objetos.Insumos;
@@ -54,6 +55,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void salir(View view)
+    {
+        finish();
+        Toast.makeText(this, "Cerrando aplicación", Toast.LENGTH_SHORT).show();
+        System.exit(0);
+    }
     public void face(View view)
     {
         Intent i = new Intent(Intent.ACTION_VIEW); //Abre un sitio web
@@ -194,35 +201,7 @@ public class MainActivity extends AppCompatActivity {
 
     }*/
 
-        //Intenta implicitos
 
-
-       /* public void face(View view)
-        {
-            Intent i = new Intent(Intent.ACTION_VIEW); //Abre un sitio web
-            i.setData(Uri.parse("https://www.facebook.com/"));
-            startActivity(i);
-        }
-
-        public void twiter(View view)
-        {
-            Intent i = new Intent(Intent.ACTION_VIEW); //Abre un sitio web
-            i.setData(Uri.parse("https://www.twitter.com/"));
-            startActivity(i);
-        }
-
-        public void youtube(View view)
-        {
-            Intent i = new Intent(Intent.ACTION_VIEW); //Abre un sitio web
-            i.setData(Uri.parse("https://www.youtube.com/"));
-            startActivity(i);
-        }
-
-        public void info(View view)
-        {
-            Intent i = new Intent(getBaseContext(), Info_act.class);
-            startActivity(i);
-        }*/
 
 
 
